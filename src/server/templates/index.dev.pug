@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no", name="viewport")
+        title Studb
+        link(rel="shortcut icon", type="image/png", href="/logo.png")
+        link(rel="shortcut icon", type="image/png", href="http://localhost:8888/favicon.png")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel="stylesheet", href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css')
+        link(rel="stylesheet", href="/css/custom.css")
+        link(rel="stylesheet", href="/css/social.css")
+        link(rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css")
+        != styles
+    body
+        #app!=content
+        script(src="http://localhost:8080/manifest.bundle.js", charset="utf-8")
+        script(src="http://localhost:8080/vendor.bundle.js", charset="utf-8")
+        script(src="http://localhost:8080/main.bundle.js", charset="utf-8")
+        script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+        script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js")
+        script(src="js/custom.js")

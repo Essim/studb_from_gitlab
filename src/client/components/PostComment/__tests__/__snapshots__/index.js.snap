@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostComment should render correctly 1`] = `
+<form
+  action="#"
+  method="post"
+  onSubmit={[Function]}
+>
+  <Gravatar
+    className="img-responsive img-circle img-sm"
+    default="identicon"
+    email="mockPseudo"
+    protocol="//"
+    rating="g"
+    size={50}
+  />
+  <div
+    className="img-push"
+  >
+    <Input
+      className="form-control input-sm"
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Lache un commentaire !"
+      tag="p"
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;

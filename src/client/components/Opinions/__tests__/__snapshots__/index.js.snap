@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Opinions should render correctly 1`] = `
+<div>
+  <div
+    className="pull-left"
+  >
+    <DocumentButton
+      button="download"
+      document_cuid="mockCudi"
+      key="download_mockCudi"
+    />
+     
+    <Connect(RevisionUploadComponent) />
+     
+    <DocumentButton
+      button="like"
+      document_cuid="mockCudi"
+      key="like_mockCudi"
+      opinions={
+        Array [
+          Object {
+            "_id": "5a18025735a4ce74080309d4",
+            "cuid": "opi1",
+            "cuid_author": "cuidusr1",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "essim",
+            "report": false,
+            "state": true,
+          },
+          Object {
+            "_id": "5a18025735a4ce74080309d3",
+            "cuid": "opi2",
+            "cuid_author": "cuidusr2",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "christopher",
+            "report": false,
+            "state": true,
+          },
+        ]
+      }
+    />
+    <span
+      key="span1mockCudi"
+    >
+       
+    </span>
+    <DocumentButton
+      button="dislike"
+      document_cuid="mockCudi"
+      key="dislike_mockCudi"
+      opinions={
+        Array [
+          Object {
+            "_id": "5a18025735a4ce74080309d4",
+            "cuid": "opi1",
+            "cuid_author": "cuidusr1",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "essim",
+            "report": false,
+            "state": true,
+          },
+          Object {
+            "_id": "5a18025735a4ce74080309d3",
+            "cuid": "opi2",
+            "cuid_author": "cuidusr2",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "christopher",
+            "report": false,
+            "state": true,
+          },
+        ]
+      }
+    />
+    <span
+      key="span2mockCudi"
+    >
+       
+    </span>
+    <DocumentButton
+      button="report"
+      document_cuid="mockCudi"
+      key="report_mockCudi"
+      opinions={
+        Array [
+          Object {
+            "_id": "5a18025735a4ce74080309d4",
+            "cuid": "opi1",
+            "cuid_author": "cuidusr1",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "essim",
+            "report": false,
+            "state": true,
+          },
+          Object {
+            "_id": "5a18025735a4ce74080309d3",
+            "cuid": "opi2",
+            "cuid_author": "cuidusr2",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "christopher",
+            "report": false,
+            "state": true,
+          },
+        ]
+      }
+    />
+  </div>
+  <div
+    className="pull-right text-muted"
+  >
+    <OpinionsSummary
+      comments={
+        Array [
+          Object {
+            "_id": "5a18025735a4ce74080309d2",
+            "comments": Array [],
+            "cuid": "cuidCom2",
+            "cuid_author": "cuidusr1",
+            "date": "2004-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "mainComment": false,
+            "name_author": "essim",
+            "opinions": Array [],
+            "text": "One step test",
+          },
+        ]
+      }
+      document_cuid="mockCudi"
+      key="opinionsmockCudi"
+      opinions={
+        Array [
+          Object {
+            "_id": "5a18025735a4ce74080309d4",
+            "cuid": "opi1",
+            "cuid_author": "cuidusr1",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "essim",
+            "report": false,
+            "state": true,
+          },
+          Object {
+            "_id": "5a18025735a4ce74080309d3",
+            "cuid": "opi2",
+            "cuid_author": "cuidusr2",
+            "date": "2001-12-31T23:00:00.000Z",
+            "logicalDelete": false,
+            "name_author": "christopher",
+            "report": false,
+            "state": true,
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

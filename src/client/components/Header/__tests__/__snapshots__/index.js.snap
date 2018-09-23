@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<header
+  className="main-header"
+>
+  <Link
+    className="logo"
+    replace={false}
+    to="/"
+  >
+    <span
+      className="logo-mini"
+    >
+      <b>
+        STU
+      </b>
+      DB
+    </span>
+    <span
+      className="logo-lg"
+    >
+      <b>
+        Student
+      </b>
+      DB
+    </span>
+  </Link>
+  <nav
+    className="navbar navbar-static-top"
+  >
+    <div
+      className="navbar-custom-menu"
+    >
+      <ul
+        className="nav navbar-nav"
+      >
+        <li>
+          <Route
+            component={[Function]}
+            path="/"
+          />
+        </li>
+      </ul>
+    </div>
+    <Connect(SignUp) />
+  </nav>
+</header>
+`;

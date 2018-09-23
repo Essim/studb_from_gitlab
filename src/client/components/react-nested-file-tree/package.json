@@ -1,0 +1,146 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-nested-file-tree",
+        "scope": null,
+        "escapedName": "react-nested-file-tree",
+        "name": "react-nested-file-tree",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Damien Meur\\Documents\\repos\\studb"
+    ]
+  ],
+  "_from": "react-nested-file-tree@latest",
+  "_id": "react-nested-file-tree@0.0.4",
+  "_inCache": true,
+  "_location": "/react-nested-file-tree",
+  "_nodeVersion": "4.4.4",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/react-nested-file-tree-0.0.4.tgz_1481787508368_0.8314288964029402"
+  },
+  "_npmUser": {
+    "name": "woodpig07",
+    "email": "woodpig07@gmail.com"
+  },
+  "_npmVersion": "3.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-nested-file-tree",
+    "scope": null,
+    "escapedName": "react-nested-file-tree",
+    "name": "react-nested-file-tree",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-nested-file-tree/-/react-nested-file-tree-0.0.4.tgz",
+  "_shasum": "5f958bb5c325be56668b0779b86ca7d6ce38c363",
+  "_shrinkwrap": null,
+  "_spec": "react-nested-file-tree",
+  "_where": "C:\\Users\\Damien Meur\\Documents\\repos\\studb",
+  "author": {
+    "name": "woodpig07@gamil.com"
+  },
+  "bugs": {
+    "url": "https://github.com/woodpig07/react-nested-file-tree/issues"
+  },
+  "dependencies": {},
+  "description": "React component for file directory",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.6.1",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.6.0",
+    "es5-shim": "^4.5.9",
+    "es6-shim": "^0.35.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.2.0",
+    "react": "^15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sinon": "^1.17.6",
+    "snazzy": "^5.0.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5f958bb5c325be56668b0779b86ca7d6ce38c363",
+    "tarball": "https://registry.npmjs.org/react-nested-file-tree/-/react-nested-file-tree-0.0.4.tgz"
+  },
+  "engines": {
+    "node": ">=4.4.4"
+  },
+  "gitHead": "4109caefa6427aaa2e9a7252423271fa1c86d4eb",
+  "homepage": "https://github.com/woodpig07/react-nested-file-tree#readme",
+  "keywords": [
+    "react",
+    "file",
+    "directory",
+    "nested"
+  ],
+  "license": "MIT",
+  "main": "lib/NestedFileTreeView.js",
+  "maintainers": [
+    {
+      "name": "woodpig07",
+      "email": "woodpig07@gmail.com"
+    }
+  ],
+  "name": "react-nested-file-tree",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodpig07/react-nested-file-tree.git"
+  },
+  "scripts": {
+    "build:dist": "NODE_ENV=production webpack -p --config webpack.production.config.js",
+    "build:lib": "NODE_ENV=production babel src -d lib --ignore index.js,__test__/*",
+    "compileexample": "NODE_ENV=production webpack -p --config example/webpack.config.js --content-base example",
+    "example": "webpack-dev-server --config example/webpack.config.js --content-base example",
+    "lint": "snazzy --verbose",
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "standard": {
+    "ignore": [
+      "/dist/",
+      "/lib/",
+      "karma.conf.js"
+    ],
+    "parser": "babel-eslint"
+  },
+  "style": "dist/default.css",
+  "version": "0.0.4"
+}

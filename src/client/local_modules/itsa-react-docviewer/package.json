@@ -1,0 +1,117 @@
+{
+  "_from": "itsa-react-docviewer",
+  "_id": "itsa-react-docviewer@16.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-MaxBoI3ANRv35lYTTkQgTP4oiqWlhd0NhEBuOYsy1CVQEpagoun9CSHo+FHR9He9cgXNVGfen37tlE41QCP90A==",
+  "_location": "/itsa-react-docviewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "itsa-react-docviewer",
+    "name": "itsa-react-docviewer",
+    "escapedName": "itsa-react-docviewer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/itsa-react-docviewer/-/itsa-react-docviewer-16.0.6.tgz",
+  "_shasum": "745a9ea4207f18d4dc3035126e543f877f0e3bf7",
+  "_spec": "itsa-react-docviewer",
+  "_where": "/home/damien/repos/studb",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ItsAsbreuk/itsa-react-docviewer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "itsa-utils": "^1.4.0",
+    "prop-types": "^15.5.10"
+  },
+  "deprecated": false,
+  "description": "React component that views documents using Google Doc Viewer",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "chai-equal-jsx": "^1.0.9",
+    "css-loader": "^0.23.1",
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "istanbul": "^0.3.0",
+    "jsdom": "^7.2.2",
+    "jsdom-global": "^1.6.1",
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4",
+    "node-sass": "^3.4.2",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.0.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "yuidocjs": "^0.9.0"
+  },
+  "directories": {
+    "css": "./css",
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=5"
+  },
+  "homepage": "https://github.com/ItsAsbreuk/itsa-react-docviewer#readme",
+  "keywords": [
+    "itsasbreuk",
+    "itsa",
+    "react",
+    "react-component",
+    "doc",
+    "viewer",
+    "docviewer",
+    "google"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./lib/component.jsx",
+  "maintainers": [
+    {
+      "name": "Marco Asbreuk",
+      "email": "marco@itsasbreuk.nl"
+    }
+  ],
+  "name": "itsa-react-docviewer",
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsAsbreuk/itsa-react-docviewer.git"
+  },
+  "scripts": {
+    "build": "webpack && yuidoc ./lib -q -c ./yuidoc.json",
+    "lint": "eslint ./**/*.jsx?",
+    "pretest": "eslint  ./**/*.jsx?",
+    "test": "mocha 'tests/*.js' --compilers js:babel-core/register"
+  },
+  "testling": {
+    "harness": "mocha",
+    "files": "tests/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "version": "16.0.6"
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrowserFiles should render correctly 1`] = `
+<NestedFileTreeView
+  directory={
+    Object {
+      "Fichiers": Object {
+        "_contents": Array [],
+      },
+      "_contents": Array [],
+    }
+  }
+  fileClickHandler={[Function]}
+  fileTemplate={[Function]}
+  folderTemplate={[Function]}
+/>
+`;

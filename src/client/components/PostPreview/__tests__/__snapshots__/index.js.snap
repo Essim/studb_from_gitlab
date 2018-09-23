@@ -1,0 +1,785 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostPreview should render correctly 1`] = `
+<div
+  className=""
+>
+  <div
+    className="col-xs-undefined col-xs-offset-undefined"
+  >
+    <div
+      className="box box-widget"
+    >
+      <div
+        className="box-header with-border"
+      >
+        <div
+          className="user-block"
+        >
+          <Gravatar
+            className="img-circle"
+            default="identicon"
+            email="christopher"
+            protocol="//"
+            rating="g"
+            size={50}
+          />
+          <span
+            className="username"
+          >
+            <Link
+              replace={false}
+              to="/user/stats/christopher"
+            >
+              christopher
+            </Link>
+          </span>
+          <span
+            className="description"
+          >
+            <i>
+              Cours inconnu
+            </i>
+             -
+            Le 2001-1-1 à 00:00:00
+          </span>
+          <span
+            className="comment"
+          >
+             
+            <a
+              key="linktocuidTag1"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              #
+              BIN
+            </a>
+             
+            <a
+              key="linktocuidTag2"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              #
+              Anglais
+            </a>
+             
+            <a
+              key="linktocuidTag3"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              #
+              Funny
+            </a>
+          </span>
+        </div>
+        <div
+          className="box-tools"
+        >
+          <button
+            className="btn btn-box-tool"
+            data-toggle="tooltip"
+            title="Consulter"
+            type="button"
+          >
+            <Link
+              replace={false}
+              to={
+                Object {
+                  "pathname": "/document/cuidDoc1",
+                  "state": Object {
+                    "document": Object {
+                      "__v": 0,
+                      "_id": "5a17f595977b356a3d6d392a",
+                      "comments": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d3930",
+                          "comments": Array [
+                            Object {
+                              "_id": "5a17f595977b356a3d6d3932",
+                              "comments": Array [],
+                              "cuid": "cuidCom2",
+                              "cuid_author": "cuidusr1",
+                              "date": "2004-12-31T23:00:00.000Z",
+                              "logicalDelete": false,
+                              "mainComment": false,
+                              "name_author": "essim",
+                              "opinions": Array [],
+                              "text": "One step test",
+                            },
+                          ],
+                          "cuid": "cuidCom1",
+                          "cuid_author": "cuidusr2",
+                          "date": "2017-11-06T14:01:15.000Z",
+                          "logicalDelete": false,
+                          "mainComment": true,
+                          "name_author": "christopher",
+                          "opinions": Array [
+                            Object {
+                              "_id": "5a17f595977b356a3d6d3931",
+                              "cuid": "opi3",
+                              "cuid_author": "cuidusr2",
+                              "date": "2001-12-31T23:00:00.000Z",
+                              "logicalDelete": false,
+                              "name_author": "christopher",
+                              "report": false,
+                              "state": true,
+                            },
+                          ],
+                          "text": "Superbe test",
+                        },
+                        Object {
+                          "_id": "5a17f595977b356a3d6d392e",
+                          "comments": Array [],
+                          "cuid": "cuidCom2",
+                          "cuid_author": "cuidusr1",
+                          "date": "2017-11-06T14:01:15.000Z",
+                          "logicalDelete": false,
+                          "mainComment": true,
+                          "name_author": "essim",
+                          "opinions": Array [
+                            Object {
+                              "_id": "5a17f595977b356a3d6d392f",
+                              "cuid": "opi3",
+                              "cuid_author": "cuidusr2",
+                              "date": "2001-12-31T23:00:00.000Z",
+                              "logicalDelete": false,
+                              "name_author": "christopher",
+                              "report": false,
+                              "state": true,
+                            },
+                          ],
+                          "text": "Je suis une banane",
+                        },
+                      ],
+                      "cuid": "cuidDoc1",
+                      "cuid_author": "cuidusr2",
+                      "cuid_course": "anglais-1",
+                      "cuid_division": "division-bin",
+                      "date": "2000-12-31T23:00:00.000Z",
+                      "description": "The amazing alphabet",
+                      "files": Object {
+                        "_contents": Array [
+                          Object {
+                            "Ext": ".pdf",
+                            "isDir": false,
+                            "name": "file1.pdf",
+                            "path": "files/version_doc1/file1.pdf",
+                            "url": "http://localhost:8888/files/version_doc1/file1.pdf",
+                          },
+                          Object {
+                            "Ext": ".doc",
+                            "isDir": false,
+                            "name": "file2.doc",
+                            "path": "files/version_doc1/file2.doc",
+                            "url": "http://localhost:8888/files/version_doc1/file2.doc",
+                          },
+                        ],
+                        "dir1": Object {
+                          "_contents": Array [
+                            Object {
+                              "Ext": ".docx",
+                              "isDir": false,
+                              "name": "file3.docx",
+                              "path": "files/version_doc1/dir1/file3.docx",
+                              "url": "http://localhost:8888/files/version_doc1/dir1/file3.docx",
+                            },
+                          ],
+                        },
+                      },
+                      "isRep": true,
+                      "logicalDelete": false,
+                      "name": "synthese_alphabet",
+                      "name_author": "christopher",
+                      "opinions": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d3934",
+                          "cuid": "opi1",
+                          "cuid_author": "cuidusr1",
+                          "date": "2001-12-31T23:00:00.000Z",
+                          "logicalDelete": false,
+                          "name_author": "essim",
+                          "report": false,
+                          "state": true,
+                        },
+                        Object {
+                          "_id": "5a17f595977b356a3d6d3933",
+                          "cuid": "opi2",
+                          "cuid_author": "cuidusr2",
+                          "date": "2001-12-31T23:00:00.000Z",
+                          "logicalDelete": false,
+                          "name_author": "christopher",
+                          "report": false,
+                          "state": true,
+                        },
+                      ],
+                      "parentRep": null,
+                      "path": "http://localhost:8888/files/version_doc1",
+                      "tags": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d392d",
+                          "course": false,
+                          "cuid": "cuidTag1",
+                          "division": true,
+                          "logicalDelete": false,
+                          "name": "BIN",
+                          "numid": 1,
+                        },
+                        Object {
+                          "_id": "5a17f595977b356a3d6d392c",
+                          "course": true,
+                          "cuid": "cuidTag2",
+                          "division": false,
+                          "logicalDelete": false,
+                          "name": "Anglais",
+                          "numid": 2,
+                        },
+                        Object {
+                          "_id": "5a17f595977b356a3d6d392b",
+                          "course": false,
+                          "cuid": "cuidTag3",
+                          "division": false,
+                          "logicalDelete": false,
+                          "name": "Funny",
+                          "numid": 3,
+                        },
+                      ],
+                      "tagsNumber": Array [
+                        1,
+                        2,
+                        3,
+                      ],
+                      "zip_path": "http://localhost:8888/files/version_doc1/version_doc1.zip",
+                    },
+                  },
+                }
+              }
+            >
+              <i
+                className="fa fa-expand"
+              />
+            </Link>
+          </button>
+        </div>
+      </div>
+      <div
+        className="box-body with-border"
+      >
+        <Link
+          replace={false}
+          to={
+            Object {
+              "pathname": "/document/cuidDoc1",
+              "state": Object {
+                "document": Object {
+                  "__v": 0,
+                  "_id": "5a17f595977b356a3d6d392a",
+                  "comments": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d3930",
+                      "comments": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d3932",
+                          "comments": Array [],
+                          "cuid": "cuidCom2",
+                          "cuid_author": "cuidusr1",
+                          "date": "2004-12-31T23:00:00.000Z",
+                          "logicalDelete": false,
+                          "mainComment": false,
+                          "name_author": "essim",
+                          "opinions": Array [],
+                          "text": "One step test",
+                        },
+                      ],
+                      "cuid": "cuidCom1",
+                      "cuid_author": "cuidusr2",
+                      "date": "2017-11-06T14:01:15.000Z",
+                      "logicalDelete": false,
+                      "mainComment": true,
+                      "name_author": "christopher",
+                      "opinions": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d3931",
+                          "cuid": "opi3",
+                          "cuid_author": "cuidusr2",
+                          "date": "2001-12-31T23:00:00.000Z",
+                          "logicalDelete": false,
+                          "name_author": "christopher",
+                          "report": false,
+                          "state": true,
+                        },
+                      ],
+                      "text": "Superbe test",
+                    },
+                    Object {
+                      "_id": "5a17f595977b356a3d6d392e",
+                      "comments": Array [],
+                      "cuid": "cuidCom2",
+                      "cuid_author": "cuidusr1",
+                      "date": "2017-11-06T14:01:15.000Z",
+                      "logicalDelete": false,
+                      "mainComment": true,
+                      "name_author": "essim",
+                      "opinions": Array [
+                        Object {
+                          "_id": "5a17f595977b356a3d6d392f",
+                          "cuid": "opi3",
+                          "cuid_author": "cuidusr2",
+                          "date": "2001-12-31T23:00:00.000Z",
+                          "logicalDelete": false,
+                          "name_author": "christopher",
+                          "report": false,
+                          "state": true,
+                        },
+                      ],
+                      "text": "Je suis une banane",
+                    },
+                  ],
+                  "cuid": "cuidDoc1",
+                  "cuid_author": "cuidusr2",
+                  "cuid_course": "anglais-1",
+                  "cuid_division": "division-bin",
+                  "date": "2000-12-31T23:00:00.000Z",
+                  "description": "The amazing alphabet",
+                  "files": Object {
+                    "_contents": Array [
+                      Object {
+                        "Ext": ".pdf",
+                        "isDir": false,
+                        "name": "file1.pdf",
+                        "path": "files/version_doc1/file1.pdf",
+                        "url": "http://localhost:8888/files/version_doc1/file1.pdf",
+                      },
+                      Object {
+                        "Ext": ".doc",
+                        "isDir": false,
+                        "name": "file2.doc",
+                        "path": "files/version_doc1/file2.doc",
+                        "url": "http://localhost:8888/files/version_doc1/file2.doc",
+                      },
+                    ],
+                    "dir1": Object {
+                      "_contents": Array [
+                        Object {
+                          "Ext": ".docx",
+                          "isDir": false,
+                          "name": "file3.docx",
+                          "path": "files/version_doc1/dir1/file3.docx",
+                          "url": "http://localhost:8888/files/version_doc1/dir1/file3.docx",
+                        },
+                      ],
+                    },
+                  },
+                  "isRep": true,
+                  "logicalDelete": false,
+                  "name": "synthese_alphabet",
+                  "name_author": "christopher",
+                  "opinions": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d3934",
+                      "cuid": "opi1",
+                      "cuid_author": "cuidusr1",
+                      "date": "2001-12-31T23:00:00.000Z",
+                      "logicalDelete": false,
+                      "name_author": "essim",
+                      "report": false,
+                      "state": true,
+                    },
+                    Object {
+                      "_id": "5a17f595977b356a3d6d3933",
+                      "cuid": "opi2",
+                      "cuid_author": "cuidusr2",
+                      "date": "2001-12-31T23:00:00.000Z",
+                      "logicalDelete": false,
+                      "name_author": "christopher",
+                      "report": false,
+                      "state": true,
+                    },
+                  ],
+                  "parentRep": null,
+                  "path": "http://localhost:8888/files/version_doc1",
+                  "tags": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d392d",
+                      "course": false,
+                      "cuid": "cuidTag1",
+                      "division": true,
+                      "logicalDelete": false,
+                      "name": "BIN",
+                      "numid": 1,
+                    },
+                    Object {
+                      "_id": "5a17f595977b356a3d6d392c",
+                      "course": true,
+                      "cuid": "cuidTag2",
+                      "division": false,
+                      "logicalDelete": false,
+                      "name": "Anglais",
+                      "numid": 2,
+                    },
+                    Object {
+                      "_id": "5a17f595977b356a3d6d392b",
+                      "course": false,
+                      "cuid": "cuidTag3",
+                      "division": false,
+                      "logicalDelete": false,
+                      "name": "Funny",
+                      "numid": 3,
+                    },
+                  ],
+                  "tagsNumber": Array [
+                    1,
+                    2,
+                    3,
+                  ],
+                  "zip_path": "http://localhost:8888/files/version_doc1/version_doc1.zip",
+                },
+              },
+            }
+          }
+        >
+          <h2>
+            synthese_alphabet
+          </h2>
+        </Link>
+        <MarkdownArea
+          content="The amazing alphabet"
+        />
+      </div>
+      <Connect(FilePreview)
+        doc_cuid="cuidDoc1"
+        selected_file={
+          Object {
+            "Ext": ".pdf",
+            "isDir": false,
+            "name": "file1.pdf",
+            "path": "files/version_doc1/file1.pdf",
+            "url": "http://localhost:8888/files/version_doc1/file1.pdf",
+          }
+        }
+      />
+      <div
+        className="box-body with-border"
+      >
+        <Opinions
+          comments={
+            Array [
+              Object {
+                "_id": "5a17f595977b356a3d6d3930",
+                "comments": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3932",
+                    "comments": Array [],
+                    "cuid": "cuidCom2",
+                    "cuid_author": "cuidusr1",
+                    "date": "2004-12-31T23:00:00.000Z",
+                    "logicalDelete": false,
+                    "mainComment": false,
+                    "name_author": "essim",
+                    "opinions": Array [],
+                    "text": "One step test",
+                  },
+                ],
+                "cuid": "cuidCom1",
+                "cuid_author": "cuidusr2",
+                "date": "2017-11-06T14:01:15.000Z",
+                "logicalDelete": false,
+                "mainComment": true,
+                "name_author": "christopher",
+                "opinions": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3931",
+                    "cuid": "opi3",
+                    "cuid_author": "cuidusr2",
+                    "date": "2001-12-31T23:00:00.000Z",
+                    "logicalDelete": false,
+                    "name_author": "christopher",
+                    "report": false,
+                    "state": true,
+                  },
+                ],
+                "text": "Superbe test",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d392e",
+                "comments": Array [],
+                "cuid": "cuidCom2",
+                "cuid_author": "cuidusr1",
+                "date": "2017-11-06T14:01:15.000Z",
+                "logicalDelete": false,
+                "mainComment": true,
+                "name_author": "essim",
+                "opinions": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d392f",
+                    "cuid": "opi3",
+                    "cuid_author": "cuidusr2",
+                    "date": "2001-12-31T23:00:00.000Z",
+                    "logicalDelete": false,
+                    "name_author": "christopher",
+                    "report": false,
+                    "state": true,
+                  },
+                ],
+                "text": "Je suis une banane",
+              },
+            ]
+          }
+          document={
+            Object {
+              "__v": 0,
+              "_id": "5a17f595977b356a3d6d392a",
+              "comments": Array [
+                Object {
+                  "_id": "5a17f595977b356a3d6d3930",
+                  "comments": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d3932",
+                      "comments": Array [],
+                      "cuid": "cuidCom2",
+                      "cuid_author": "cuidusr1",
+                      "date": "2004-12-31T23:00:00.000Z",
+                      "logicalDelete": false,
+                      "mainComment": false,
+                      "name_author": "essim",
+                      "opinions": Array [],
+                      "text": "One step test",
+                    },
+                  ],
+                  "cuid": "cuidCom1",
+                  "cuid_author": "cuidusr2",
+                  "date": "2017-11-06T14:01:15.000Z",
+                  "logicalDelete": false,
+                  "mainComment": true,
+                  "name_author": "christopher",
+                  "opinions": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d3931",
+                      "cuid": "opi3",
+                      "cuid_author": "cuidusr2",
+                      "date": "2001-12-31T23:00:00.000Z",
+                      "logicalDelete": false,
+                      "name_author": "christopher",
+                      "report": false,
+                      "state": true,
+                    },
+                  ],
+                  "text": "Superbe test",
+                },
+                Object {
+                  "_id": "5a17f595977b356a3d6d392e",
+                  "comments": Array [],
+                  "cuid": "cuidCom2",
+                  "cuid_author": "cuidusr1",
+                  "date": "2017-11-06T14:01:15.000Z",
+                  "logicalDelete": false,
+                  "mainComment": true,
+                  "name_author": "essim",
+                  "opinions": Array [
+                    Object {
+                      "_id": "5a17f595977b356a3d6d392f",
+                      "cuid": "opi3",
+                      "cuid_author": "cuidusr2",
+                      "date": "2001-12-31T23:00:00.000Z",
+                      "logicalDelete": false,
+                      "name_author": "christopher",
+                      "report": false,
+                      "state": true,
+                    },
+                  ],
+                  "text": "Je suis une banane",
+                },
+              ],
+              "cuid": "cuidDoc1",
+              "cuid_author": "cuidusr2",
+              "cuid_course": "anglais-1",
+              "cuid_division": "division-bin",
+              "date": "2000-12-31T23:00:00.000Z",
+              "description": "The amazing alphabet",
+              "files": Object {
+                "_contents": Array [
+                  Object {
+                    "Ext": ".pdf",
+                    "isDir": false,
+                    "name": "file1.pdf",
+                    "path": "files/version_doc1/file1.pdf",
+                    "url": "http://localhost:8888/files/version_doc1/file1.pdf",
+                  },
+                  Object {
+                    "Ext": ".doc",
+                    "isDir": false,
+                    "name": "file2.doc",
+                    "path": "files/version_doc1/file2.doc",
+                    "url": "http://localhost:8888/files/version_doc1/file2.doc",
+                  },
+                ],
+                "dir1": Object {
+                  "_contents": Array [
+                    Object {
+                      "Ext": ".docx",
+                      "isDir": false,
+                      "name": "file3.docx",
+                      "path": "files/version_doc1/dir1/file3.docx",
+                      "url": "http://localhost:8888/files/version_doc1/dir1/file3.docx",
+                    },
+                  ],
+                },
+              },
+              "isRep": true,
+              "logicalDelete": false,
+              "name": "synthese_alphabet",
+              "name_author": "christopher",
+              "opinions": Array [
+                Object {
+                  "_id": "5a17f595977b356a3d6d3934",
+                  "cuid": "opi1",
+                  "cuid_author": "cuidusr1",
+                  "date": "2001-12-31T23:00:00.000Z",
+                  "logicalDelete": false,
+                  "name_author": "essim",
+                  "report": false,
+                  "state": true,
+                },
+                Object {
+                  "_id": "5a17f595977b356a3d6d3933",
+                  "cuid": "opi2",
+                  "cuid_author": "cuidusr2",
+                  "date": "2001-12-31T23:00:00.000Z",
+                  "logicalDelete": false,
+                  "name_author": "christopher",
+                  "report": false,
+                  "state": true,
+                },
+              ],
+              "parentRep": null,
+              "path": "http://localhost:8888/files/version_doc1",
+              "tags": Array [
+                Object {
+                  "_id": "5a17f595977b356a3d6d392d",
+                  "course": false,
+                  "cuid": "cuidTag1",
+                  "division": true,
+                  "logicalDelete": false,
+                  "name": "BIN",
+                  "numid": 1,
+                },
+                Object {
+                  "_id": "5a17f595977b356a3d6d392c",
+                  "course": true,
+                  "cuid": "cuidTag2",
+                  "division": false,
+                  "logicalDelete": false,
+                  "name": "Anglais",
+                  "numid": 2,
+                },
+                Object {
+                  "_id": "5a17f595977b356a3d6d392b",
+                  "course": false,
+                  "cuid": "cuidTag3",
+                  "division": false,
+                  "logicalDelete": false,
+                  "name": "Funny",
+                  "numid": 3,
+                },
+              ],
+              "tagsNumber": Array [
+                1,
+                2,
+                3,
+              ],
+              "zip_path": "http://localhost:8888/files/version_doc1/version_doc1.zip",
+            }
+          }
+          document_cuid="cuidDoc1"
+          file_path="http://localhost:8888/files/version_doc1.zip"
+          isZip={true}
+          key="OpinionscuidDoc1"
+          opinions={
+            Array [
+              Object {
+                "_id": "5a17f595977b356a3d6d3934",
+                "cuid": "opi1",
+                "cuid_author": "cuidusr1",
+                "date": "2001-12-31T23:00:00.000Z",
+                "logicalDelete": false,
+                "name_author": "essim",
+                "report": false,
+                "state": true,
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3933",
+                "cuid": "opi2",
+                "cuid_author": "cuidusr2",
+                "date": "2001-12-31T23:00:00.000Z",
+                "logicalDelete": false,
+                "name_author": "christopher",
+                "report": false,
+                "state": true,
+              },
+            ]
+          }
+        />
+      </div>
+      <Connect(BrowserFiles)
+        doc_cuid="cuidDoc1"
+        files={
+          Object {
+            "_contents": Array [
+              Object {
+                "Ext": ".pdf",
+                "isDir": false,
+                "name": "file1.pdf",
+                "path": "files/version_doc1/file1.pdf",
+                "url": "http://localhost:8888/files/version_doc1/file1.pdf",
+              },
+              Object {
+                "Ext": ".doc",
+                "isDir": false,
+                "name": "file2.doc",
+                "path": "files/version_doc1/file2.doc",
+                "url": "http://localhost:8888/files/version_doc1/file2.doc",
+              },
+            ],
+            "dir1": Object {
+              "_contents": Array [
+                Object {
+                  "Ext": ".docx",
+                  "isDir": false,
+                  "name": "file3.docx",
+                  "path": "files/version_doc1/dir1/file3.docx",
+                  "url": "http://localhost:8888/files/version_doc1/dir1/file3.docx",
+                },
+              ],
+            },
+          }
+        }
+      />
+      <div
+        className="box-footer"
+      >
+        <a
+          className="text-center"
+          href="#"
+          onClick={[Function]}
+        >
+          Afficher les commentaires
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

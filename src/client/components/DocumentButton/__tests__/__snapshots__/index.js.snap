@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentButton should render correctly 1`] = `
+<Connect(LikeButton)
+  document_cuid="mockCUID"
+  key="like_mockCUID"
+  opinions={
+    Array [
+      "mockOpinion1",
+      "mockOpinion2",
+      "mockOpinion3",
+    ]
+  }
+/>
+`;

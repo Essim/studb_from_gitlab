@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render correctly 1`] = `
+<aside
+  className="main-sidebar"
+>
+  <section
+    className="sidebar"
+  >
+    <UserPanel
+      user={Object {}}
+    />
+    <Connect(Search) />
+    <ul
+      className="sidebar-menu"
+      data-widget="tree"
+    >
+      <Connect(Division)
+        division={
+          Object {
+            "__v": 0,
+            "_id": "5a17f595977b356a3d6d3918",
+            "acronym": "BIN",
+            "courses": Array [
+              Object {
+                "_id": "5a17f595977b356a3d6d3920",
+                "cuid": "anglais-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391f",
+                "cuid": "web-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391e",
+                "cuid": "assembly-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Assembleur",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391d",
+                "cuid": "anglais-2",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391c",
+                "cuid": "web-2",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391b",
+                "cuid": "c-lang-1",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Language C",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d391a",
+                "cuid": "anglais-3",
+                "grade": 3,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3919",
+                "cuid": "web-3",
+                "grade": 3,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+            ],
+            "cuid": "cuiddivision1",
+            "grades": Array [
+              null,
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3920",
+                    "cuid": "anglais-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391f",
+                    "cuid": "web-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391e",
+                    "cuid": "assembly-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Assembleur",
+                  },
+                ],
+                "grade": 1,
+                "name": "1BIN",
+              },
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391d",
+                    "cuid": "anglais-2",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391c",
+                    "cuid": "web-2",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391b",
+                    "cuid": "c-lang-1",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Language C",
+                  },
+                ],
+                "grade": 2,
+                "name": "2BIN",
+              },
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d391a",
+                    "cuid": "anglais-3",
+                    "grade": 3,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3919",
+                    "cuid": "web-3",
+                    "grade": 3,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                ],
+                "grade": 3,
+                "name": "3BIN",
+              },
+            ],
+            "logicalDelete": false,
+          }
+        }
+        key="navbarBIN"
+      />
+      <Connect(Division)
+        division={
+          Object {
+            "__v": 0,
+            "_id": "5a17f595977b356a3d6d3921",
+            "acronym": "BIM",
+            "courses": Array [
+              Object {
+                "_id": "5a17f595977b356a3d6d3929",
+                "cuid": "anglais-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3928",
+                "cuid": "web-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3927",
+                "cuid": "assembly-1",
+                "grade": 1,
+                "logicalDelete": false,
+                "name": "Assembleur",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3926",
+                "cuid": "anglais-2",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3925",
+                "cuid": "web-2",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3924",
+                "cuid": "c-lang-1",
+                "grade": 2,
+                "logicalDelete": false,
+                "name": "Language C",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3923",
+                "cuid": "anglais-3",
+                "grade": 3,
+                "logicalDelete": false,
+                "name": "Anglais",
+              },
+              Object {
+                "_id": "5a17f595977b356a3d6d3922",
+                "cuid": "web-3",
+                "grade": 3,
+                "logicalDelete": false,
+                "name": "Web",
+              },
+            ],
+            "cuid": "division-bim",
+            "grades": Array [
+              null,
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3929",
+                    "cuid": "anglais-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3928",
+                    "cuid": "web-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3927",
+                    "cuid": "assembly-1",
+                    "grade": 1,
+                    "logicalDelete": false,
+                    "name": "Assembleur",
+                  },
+                ],
+                "grade": 1,
+                "name": "1BIM",
+              },
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3926",
+                    "cuid": "anglais-2",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3925",
+                    "cuid": "web-2",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3924",
+                    "cuid": "c-lang-1",
+                    "grade": 2,
+                    "logicalDelete": false,
+                    "name": "Language C",
+                  },
+                ],
+                "grade": 2,
+                "name": "2BIM",
+              },
+              Object {
+                "courses": Array [
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3923",
+                    "cuid": "anglais-3",
+                    "grade": 3,
+                    "logicalDelete": false,
+                    "name": "Anglais",
+                  },
+                  Object {
+                    "_id": "5a17f595977b356a3d6d3922",
+                    "cuid": "web-3",
+                    "grade": 3,
+                    "logicalDelete": false,
+                    "name": "Web",
+                  },
+                ],
+                "grade": 3,
+                "name": "3BIM",
+              },
+            ],
+            "logicalDelete": false,
+          }
+        }
+        key="navbarBIM"
+      />
+    </ul>
+  </section>
+</aside>
+`;

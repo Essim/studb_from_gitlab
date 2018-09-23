@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilePreview should render correctly 1`] = `
+<div>
+  <Component
+    allowFullScreen={false}
+    loadingMsg="loading..."
+    scrolling="auto"
+    showLoadingMsg={false}
+    src="http://localhost:8888/files/cjams2twk0000w3ffq8frjxu7"
+  />
+</div>
+`;

@@ -1,0 +1,14 @@
+node_modules
+
+#dist
+.idea
+tmp
+lib
+files
+npm
+npm-debug.log.1764748501
+npm-debug.log.4066719998
+package-lock.json
+
+
+.DS_Store

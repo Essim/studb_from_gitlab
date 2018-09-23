@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile should render correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="box"
+    >
+      <div
+        className="box-header with-border"
+      >
+        <h3
+          className="box-title"
+        >
+          Mon Profil
+        </h3>
+      </div>
+      <div
+        className="box-body"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <div
+              className="nav-tabs-custom"
+            >
+              <ul
+                className="nav nav-tabs"
+              >
+                <li
+                  className="active"
+                >
+                  <Link
+                    onClick={[Function]}
+                    replace={false}
+                    to="/user/stats/essim"
+                  >
+                    Statistiques
+                  </Link>
+                </li>
+                <li
+                  className=""
+                >
+                  <Link
+                    onClick={[Function]}
+                    replace={false}
+                    to="/user/settings/essim"
+                  >
+                    Paramètres
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={[Function]}
+                    replace={true}
+                    to="/"
+                  >
+                    Documents
+                  </Link>
+                </li>
+              </ul>
+              <div
+                className="tab-content"
+              >
+                <div
+                  className="active tab-pane"
+                >
+                  <Switch>
+                    <Route
+                      component={[Function]}
+                      path="/user/stats"
+                    />
+                    <Route
+                      component={[Function]}
+                      path="/user/settings"
+                    />
+                  </Switch>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

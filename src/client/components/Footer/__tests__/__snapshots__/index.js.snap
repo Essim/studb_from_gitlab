@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render footer 1`] = `
+<footer
+  className="main-footer"
+>
+  <div
+    className="pull-right hidden-xs"
+  >
+    Lien vers l'
+    <b>
+      <a
+        href="null/api-docs/"
+      >
+        API
+      </a>
+    </b>
+  </div>
+  <strong>
+    Copyright © 2017-2018 
+    <a
+      href="https://gitlab.com/shu-iro/studb"
+    >
+      StudentDB
+    </a>
+    .
+  </strong>
+   All rights reserved.
+</footer>
+`;
